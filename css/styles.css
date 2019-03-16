@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+#gameArea{
+    margin: 0 auto;
+    background-color: #b7c8c5;
+    width: 60%;
+    min-height: 300px;
+}
+body{
+    background-color: #875c74;
+    color: #b7c8c5;
+    font-family: 'Courier New', Courier, monospace;
+}
