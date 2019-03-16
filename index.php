@@ -11,7 +11,9 @@
 <body>
     <header><h1>Harry Potter Trivia</h1><header>
     <div id = gameArea>
-        fl
+
+        
+
     </div>
 </body>
 </html>
