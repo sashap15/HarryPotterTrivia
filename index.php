@@ -11,7 +11,10 @@
 <body>
     <header><h1>Harry Potter Trivia</h1><header>
     <div id = gameArea>
-        fl
+        
+        <form action="index.php" method="get">
+
+        </form>
     </div>
 </body>
 </html>
