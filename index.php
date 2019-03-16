@@ -1,3 +1,5 @@
+<?php include 'db.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,14 +15,14 @@
     <header><h1>Harry Potter Trivia</h1><header>
     <div id = gameArea>
         <h2>Question</h2>
-        <p id="Question">What house was Pavarti in?</p>
+        <p id="Question"><?php echo $row['question'] ?></p>
         <form action="index.php" method="get">
-            <input class="answer" type="radio" name="answers" value="Answer1">Answer1<br>
-            <input class="answer" type="radio" name="answers" value="Answer2">Answer2<br>
-            <input class="answer" type="radio" name="answers" value="Answer3">Answer3<br>
-            <input class="answer" type="radio" name="answers" value="Answer4">Answer4
-        
-        </form>   
+            <input class="answer" type="radio" name="answers" value="Answer1"><?php echo $row['answer_correct']; ?><br>
+            <input class="answer" type="radio" name="answers" value="Answer2"><?php echo $row['answer_wrong1']; ?><br>
+            <input class="answer" type="radio" name="answers" value="Answer3"><?php echo $row['answer_wrong2']; ?><br>
+            <input class="answer" type="radio" name="answers" value="Answer4"><?php echo $row['answer_wrong3']; ?>
+
+        </form>
         <button id="Submit">Submit</button>
     </div>
 </body>
