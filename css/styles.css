@@ -4,6 +4,7 @@ h1{
 #gameArea{
     margin: 0 auto;
     background-color: #b7c8c5;
+    color:black;
     width: 60%;
     min-height: 300px;
 }
