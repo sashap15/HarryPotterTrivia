@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    <script src="main.js"></script>
+    <script src="scripts/scripts.js"></script>
 </head>
 <body>
     <header><h1>Harry Potter Trivia</h1><header>
@@ -26,10 +26,10 @@
         <button id="Submit">Submit</button>
     </div>
     <footer>
-        <button id="Gryffindor">Gryffindor</button>
-        <button id="Ravenclaw">Ravenclaw</button>
-        <button id="Slytherin">Slytherin</button>
-        <button id="Hufflepuff">Hufflepuff</button>
+        <button class="Houses" id="Gryffindor" onclick="gryffindor()">Gryffindor</button>
+        <button class="Houses" id="Ravenclaw">Ravenclaw</button>
+        <button class="Houses" id="Slytherin">Slytherin</button>
+        <button class="Houses" id="Hufflepuff">Hufflepuff</button>
     </footer>
 </body>
 </html>

@@ -6,6 +6,7 @@ h2{
 }
 #gameArea{
     margin: 0 auto;
+    margin-bottom: 20px;
     background-color: #b7c8c5;
     color:black;
     width: 60%;
@@ -15,7 +16,7 @@ h2{
 }
 body{
     background-color: #875c74;
-    color: #b7c8c5;
+    color:black;
     font-family: 'Slabo 27px', serif;
 }
 #Question{
@@ -34,4 +35,7 @@ body{
 .answer{
     margin:10px;
     text-align: left;
+}
+.Houses{
+    background-color: grey;
 }
