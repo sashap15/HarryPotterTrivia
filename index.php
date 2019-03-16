@@ -25,5 +25,11 @@
         </form>
         <button id="Submit">Submit</button>
     </div>
+    <footer>
+        <button id="Gryffindor">Gryffindor</button>
+        <button id="Ravenclaw">Ravenclaw</button>
+        <button id="Slytherin">Slytherin</button>
+        <button id="Hufflepuff">Hufflepuff</button>
+    </footer>
 </body>
 </html>
