@@ -1,15 +1,37 @@
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 #gameArea{
     margin: 0 auto;
     background-color: #b7c8c5;
     color:black;
     width: 60%;
     min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
 }
 body{
     background-color: #875c74;
     color: #b7c8c5;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Slabo 27px', serif;
+}
+#Question{
+    font-size: 1.4em;
+}
+#Submit{
+    font-family: inherit;
+    background-color: #54414e;
+    color: #b7c8c5;
+    margin: 30px 44%;
+    width: 80px;
+    height: 50px;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+.answer{
+    margin:10px;
+    text-align: left;
 }
