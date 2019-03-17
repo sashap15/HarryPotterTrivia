@@ -4,6 +4,9 @@ h1{
 h2{
     text-align: center;
 }
+footer h4{
+    margin-right:15px;
+}
 #gameArea{
     margin: 0 auto;
     margin-bottom: 20px;

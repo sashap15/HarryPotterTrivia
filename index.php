@@ -17,15 +17,16 @@
         <h2>Question</h2>
         <p id="Question"><?php echo $row['question'] ?></p>
         <form action="index.php" method="get">
-            <input class="answer" type="radio" name="answers" value="Answer1"><?php echo $row['answer_correct']; ?><br>
-            <input class="answer" type="radio" name="answers" value="Answer2"><?php echo $row['answer_wrong1']; ?><br>
-            <input class="answer" type="radio" name="answers" value="Answer3"><?php echo $row['answer_wrong2']; ?><br>
-            <input class="answer" type="radio" name="answers" value="Answer4"><?php echo $row['answer_wrong3']; ?>
+            <input class="answer" type="radio" name="answers" value="Answer1"><?php echo $answers[0]; ?><br>
+            <input class="answer" type="radio" name="answers" value="Answer2"><?php echo $answers[1]; ?><br>
+            <input class="answer" type="radio" name="answers" value="Answer3"><?php echo $answers[2]; ?><br>
+            <input class="answer" type="radio" name="answers" value="Answer4"><?php echo $answers[3]; ?>
 
         </form>
         <button id="Submit">Submit</button>
     </div>
     <footer>
+        <h4 style="display:inline;">Select your house:</h4>
         <button class="Houses" id="Gryffindor" onclick="gryffindor()">Gryffindor</button>
         <button class="Houses" id="Ravenclaw">Ravenclaw</button>
         <button class="Houses" id="Slytherin">Slytherin</button>

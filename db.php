@@ -23,6 +23,8 @@
 
         shuffle($answers);
 
+        // for debuging -> print_r($answers);
+
 
     }
     else{
