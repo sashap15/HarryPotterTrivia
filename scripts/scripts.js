@@ -15,10 +15,12 @@ function submit(){
         // ----
         document.getElementById('Submit').innerHTML="Next →";
         document.getElementById('correct').style.borderColor="green";
+        document.getElementById('correct').style.backgroundColor="#d0f4d3";
         var incorrects = document.getElementsByClassName('incorrect');
         var i = 0;
         for (i = 0; i < incorrects.length; i++) {
             incorrects[i].style.borderColor = "red";
+            incorrects[i].style.backgroundColor = "#dd9090";
         }
     }
     else{
@@ -32,17 +34,13 @@ function submit(){
         // ----
         document.getElementById('Submit').innerHTML="Submit";
         var answers = document.getElementsByClassName('options');
+        var cooler = document.getElementsById('gameArea').style.backgroundColor;
         for(var i=0; i<answers.length; i++){
             answers[i].style.borderColor = "black";
+            answers[i].style.backgroundColor = cooler;
         }
 
     }
-
-
-
-
-
-
 
 }
 
