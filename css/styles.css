@@ -37,6 +37,7 @@ body{
     height: 50px;
     font-size: 1.3em;
     border-radius: 10px;
+    border: 2px solid black;
 }
 .answer{
     margin:10px;
