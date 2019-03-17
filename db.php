@@ -1,4 +1,13 @@
 <?php
+
+    //Random number for question..
+
+    // --- CHANGE THIS FOR AMOUNT OF QUESTIONS
+    $amountOfQuestions = 3;
+    // --------------------------------------
+
+    $questionNum = rand(3,$amountOfQuestions);
+
     $server = "localhost";
     $user = "root";
     $pass = "root";
@@ -6,7 +15,7 @@
 
     $conn = new mysqli($server,$user,$pass,$database);
 
-    $sql = "SELECT * FROM Questions";
+    $sql = "SELECT * FROM Questions WHERE id='{$questionNum}'";
 
     $result = $conn->query($sql);
 
@@ -14,7 +23,7 @@
 
     if($result->num_rows > 0){
         $row = $result->fetch_assoc();
-        $row = $result->fetch_assoc();
+        //$row = $result->fetch_assoc();
 
         $answers[0] = $row['answer_correct'];
         $answers[1] = $row['answer_wrong1'];
