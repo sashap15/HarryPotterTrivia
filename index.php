@@ -28,9 +28,9 @@
     <footer>
         <h4 style="display:inline;">Select your house:</h4>
         <button class="Houses" id="Gryffindor" onclick="gryffindor()">Gryffindor</button>
-        <button class="Houses" id="Ravenclaw">Ravenclaw</button>
-        <button class="Houses" id="Slytherin">Slytherin</button>
-        <button class="Houses" id="Hufflepuff">Hufflepuff</button>
+        <button class="Houses" id="Ravenclaw" onclick="ravenclaw()">Ravenclaw</button>
+        <button class="Houses" id="Slytherin" onclick="slytherin()">Slytherin</button>
+        <button class="Houses" id="Hufflepuff" onclick="hufflepuff()">Hufflepuff</button>
     </footer>
 </body>
 </html>
