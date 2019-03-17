@@ -34,7 +34,7 @@ function submit(){
         // ----
         document.getElementById('Submit').innerHTML="Submit";
         var answers = document.getElementsByClassName('options');
-        var cooler = document.getElementsById('gameArea').style.backgroundColor;
+        var cooler = document.getElementById('gameArea').style.backgroundColor;
         for(var i=0; i<answers.length; i++){
             answers[i].style.borderColor = "black";
             answers[i].style.backgroundColor = cooler;
