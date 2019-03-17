@@ -9,11 +9,17 @@ function submit(){
         // correct one is the 3rd one for now.
 
         // ----
-
+        
 
 
         // ----
         document.getElementById('Submit').innerHTML="Next →";
+        document.getElementById('correct').style.borderColor="green";
+        var incorrects = document.getElementsByClassName('incorrect');
+        var i = 0;
+        for (i = 0; i < incorrects.length; i++) {
+            incorrects[i].style.borderColor = "red";
+        }
     }
     else{
 
@@ -23,9 +29,12 @@ function submit(){
         // ----
 
 
-
         // ----
         document.getElementById('Submit').innerHTML="Submit";
+        var answers = document.getElementsByClassName('options');
+        for(var i=0; i<answers.length; i++){
+            answers[i].style.borderColor = "black";
+        }
 
     }
 

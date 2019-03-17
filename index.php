@@ -17,10 +17,10 @@
         <h2>Question</h2>
         <p id="Question"><?php echo $row['question'] ?></p>
         <form action="index.php" method="get">
-            <div class="options"><input class="answer" type="radio" name="answers" value="Answer1"><?php echo $answers[0]; ?><br></div>
-            <div class="options"><input class="answer" type="radio" name="answers" value="Answer2"><?php echo $answers[1]; ?><br></div>
-            <div class="options"><input class="answer" type="radio" name="answers" value="Answer3"><?php echo $answers[2]; ?><br></div>
-            <div class="options"><input class="answer" type="radio" name="answers" value="Answer4"><?php echo $answers[3]; ?></div>
+            <div class="options" class="incorrect"><input class="answer" type="radio" name="answers" value="Answer1"><?php echo $answers[0]; ?><br></div>
+            <div class="options" class="incorrect"><input class="answer" type="radio" name="answers" value="Answer2"><?php echo $answers[1]; ?><br></div>
+            <div class="options" id="correct"><input class="answer" type="radio" name="answers" value="Answer3"><?php echo $answers[2]; ?><br></div>
+            <div class="options" class="incorrect"><input class="answer" type="radio" name="answers" value="Answer4"><?php echo $answers[3]; ?></div>
 
         </form>
         <button id="Submit" onclick="submit()">Submit</button>
