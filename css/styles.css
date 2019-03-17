@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    border: 2px solid black;
+    padding: 10px;
 }
 h2{
     text-align: center;
@@ -38,6 +40,7 @@ body{
 .answer{
     margin:10px;
     text-align: left;
+    border: 2px solid black;
 }
 .Houses{
     background-color: grey;

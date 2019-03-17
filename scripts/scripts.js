@@ -1,3 +1,13 @@
+function submit(){
+    console.log("click");
+    if(document.getElementById('Submit').innerHTML=="Submit"){
+        document.getElementById('Submit').innerHTML="Next →";
+    }
+    else{
+        document.getElementById('Submit').innerHTML="Submit";
+    }
+}
+
 function gryffindor(){
     console.log("click");
     document.getElementById('gameArea').style.backgroundColor="#FFC500";
@@ -9,9 +19,9 @@ function gryffindor(){
 function ravenclaw(){
     console.log("click");
     document.getElementById('gameArea').style.backgroundColor="#946B2D";
-    document.body.style.backgroundColor="#000A90";
-    document.getElementById('Submit').style.backgroundColor="#000A90";
-    document.getElementById('Submit').style.color="#946B2D"; 
+    document.body.style.backgroundColor="#1259cc";
+    document.getElementById('Submit').style.backgroundColor="#1259cc";
+    document.getElementById('Submit').style.color="black"; 
 }
 function slytherin(){
     console.log("click");

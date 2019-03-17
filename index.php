@@ -23,7 +23,7 @@
             <input class="answer" type="radio" name="answers" value="Answer4"><?php echo $answers[3]; ?>
 
         </form>
-        <button id="Submit">Submit</button>
+        <button id="Submit" onclick="submit()">Submit</button>
     </div>
     <footer>
         <h4 style="display:inline;">Select your house:</h4>
