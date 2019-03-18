@@ -1,7 +1,5 @@
 h1{
     text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
     padding: 10px;
 }
 h2{
@@ -41,7 +39,7 @@ body{
 }
 .answer{
     margin:10px;
-    text-align: left;  
+    text-align: left;
 }
 .options{
     border: 1px solid black;
